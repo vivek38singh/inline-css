@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>My contact details </h1>
+  <h3>
+    Myself Ankit Singh kanyal current working from <a href="https://earth.google.com/web/@28.4745808,77.477495,196.07732948a,915.26218503d,35y,0h,45t,0r/data=ChYaFAoML2cvMXBwMnYzMXpqGAIgASgCKAI">Rsd Hostel</a>
+  </h3>
+  <h3>My contact no is 9720113733</h3>
+  <h3>My email id is ankitsinghkanyal43@gmail.com <a href="mailto:ankitbhanu3453@gmail.com?subject=feedback" target="_blank"> Mail me</a></h3>
+  <h3>Here is my <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank">linkedin handle</a></h3>
+  <h3>Here is my <a href="https://github.com/ANKIT9761" target="_blank">Github Handle</a></h3>
+  <hr size="3" noshade>
+  <form  action="mailto:ankitsinghkanyal43@gmail.com" method="post" enctype="text/plain">
+    <table cellspacing="20">
+      <tr>
+        <td><label for="name">Name</label>
+        <td><input type="text" name="Name" id="name" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="work">Profession</label></td>
+        <td><input type="text" name="Profession" id="work" value=""></td>
+      </tr>
+    </table>
+
+    <label for="Skills">Choose your Skills:</label>
+    <!--      <input list="Skillset" id="Skills" name="Skills" />-->
+
+    <input type="text" name="your skills" value="" list="skill">
+
+    <datalist id="skill">
+
+      <option value="C/C++">
+      <option value="Web development">
+      <option value="App development">
+      <option value="Python">
+      <option value="data structures and algo.">
+    </datalist>
+    <h4>Are you interested in working with us</h4>
+    <table>
+      <tr>
+        <td>Yes <input type="radio" name="work with us" value=""></td>
+        <td>No <input type="radio" name="work with us" value=""></td>
+      </tr>
+    </table>
+
+    <br>
+    <label for="Resume">Upload resume here</label>
+    <input type="file" name="file" value="">
+    <br>
+    <br>
+    <label for="Date">Enter your date of birth</label>
+    <input type="date" name="dob" value="">
+    <br>
+    This is an color tab <input type="color" name="color" value="">
+    <br>
+    <h4>Note-All values are taken in thousand for ex-10 refers to 10k </h4>
+    <label for="Range">How much Salary you excpect per month</label>
+    <input type="range" name="Salary in k" value="">
+    <br>
+    <label for="Message">Your Message:</label>
+    <br>
+    <textarea name="Message" rows="10" cols="30"></textarea>
+    <br>
+
+    <input type="submit" name="" onclick="alert('Data saved successfully')">
+
+  </form>
+</body>
+
+</html>
